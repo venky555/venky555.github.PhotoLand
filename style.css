@@ -1,0 +1,62 @@
+html{
+
+	overflow-y:hidden;
+}
+
+
+body{
+	
+background-image: url(https://images.unsplash.com/photo-1489861518096-4d12b732e831?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b54a866f144d0bd03a41a6ebf5e4b1b9&auto=format&fit=crop&w=807&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+.navbar-custom {
+    background-color: rgb(0,255,255);
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand{
+
+	color:solid black;
+
+}
+.navbar-custom .navbar-text {
+    color: rgba(38, 23, 88,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(0,0,255,1);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgba(18, 7, 59);
+}
+
+
+
+
+.join{
+margin:200px 280px 0px 290px;
+border:2px;
+text-align: center;
+font-family: georgia;
+color:white;
+}
+
+p{
+
+font-size: 40px;
+
+}
+.buttonhead{
+padding:30px 550px;
+cursor:pointer;
+}
+
+.btn-outline-primary{
+padding: 10px 100px;
+}
+
