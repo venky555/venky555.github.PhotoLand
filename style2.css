@@ -5,9 +5,31 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+.navbar-custom {
+    background-color: rgb(0,255,255);
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand{
+
+	color:solid black;
+
+}
+.navbar-custom .navbar-text {
+    color: rgba(38, 23, 88,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(0,0,255,1);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgba(18, 7, 59);
+}
+
 h1{
 
-font-family: Arial;
+font-family: 'Inconsolata', monospace;
 font-size: 3em;
 border-bottom:2px solid pink;
 border-right:2px solid pink;
